@@ -1,0 +1,114 @@
+/************************
+    Comentario Inicial
+************************/
+@import url(https://fonts.googleapis.com/css?family=Ubuntu:400,700);
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;  
+}
+body {
+	background: #1f253d;
+}
+
+h1 {
+	font-size: 23px;
+}
+
+h2 {
+	font-size: 17px;
+}
+
+h1, h2, p, a, span{
+	color: #fff;
+}
+	.scnd-font-color {
+		color: #9099b7;
+	}
+.titular {
+display: block;
+line-height: 60px;
+margin: 0;
+text-align: center;
+border-top-left-radius: 5px;
+border-top-right-radius: 5px;
+}
+.horizontal-list {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+	.horizontal-list li {
+		float: left;
+	}
+		.block {
+			margin: 25px 25px 0 0;
+			background: #394264;
+			border-radius: 5px;
+      float: left;
+      width: 300px;
+      overflow: hidden;
+		}
+		/******************************************** LEFT CONTAINER *****************************************/
+				.os-percentages li {
+					width: 75px;
+					border-left: 1px solid #394264;
+					text-align: center;					
+					background: #50597b;
+				}
+					.os {
+						margin: 0;
+						padding: 10px 0 5px;
+						font-size: 15px;		
+					}
+						.os.ios {
+							border-top: 4px solid #e64c65;
+						}
+						.os.mac {
+							border-top: 4px solid #11a8ab;
+						}
+						.os.linux {
+							border-top: 4px solid #fcb150;
+						}
+						.os.win {
+							border-top: 4px solid #4fc4f6;
+						}
+					.os-percentage {
+						margin: 0;
+						padding: 0 0 15px 10px;
+						font-size: 16px;
+					}
+			.line-chart-block, .bar-chart-block {
+				height: 400px;
+			}
+
+/******************************************
+        GRAFICO CIRCULAR PIE CHART
+******************************************/
+.donut-chart {
+  position: relative;
+	width: 200px;
+  height: 100px;
+	margin: 0 auto 3rem;
+	border-radius: 100%
+ }
+p.center-date {
+  background: #394264;
+  position: absolute;
+  text-align: center;
+	font-size: 25px;
+  top:0;left:0;bottom:0;right:0;
+  width: 130px;
+  height: 130px;
+  margin: auto;
+  border-radius: 50%;
+  line-height: 35px;
+  padding: 15% 0 0;
+}
+
+.nota-final {
+  clear: both;
+  color: #4FC4F6;
+  font-size: 0.8rem;
+  padding: 4rem 0;
+}

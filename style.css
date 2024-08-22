@@ -51,7 +51,7 @@ border-top-right-radius: 5px;
 		}
 		/******************************************** LEFT CONTAINER *****************************************/
 				.os-percentages li {
-					width: 75px;
+					width: 60px;
 					border-left: 1px solid #394264;
 					text-align: center;					
 					background: #50597b;
@@ -73,6 +73,10 @@ border-top-right-radius: 5px;
 						.os.win {
 							border-top: 4px solid #4fc4f6;
 						}
+						.os.win2 {
+							border-top: 4px solid #b0f64f;
+						}	
+
 					.os-percentage {
 						margin: 0;
 						padding: 0 0 15px 10px;
@@ -86,9 +90,9 @@ border-top-right-radius: 5px;
         GRAFICO CIRCULAR PIE CHART
 ******************************************/
 .donut-chart {
-  position: relative;
+    position: relative;
 	width: 200px;
-  height: 100px;
+    height: 100px;
 	margin: 0 auto 3rem;
 	border-radius: 100%
  }
@@ -96,7 +100,7 @@ p.center-date {
   background: #394264;
   position: absolute;
   text-align: center;
-	font-size: 25px;
+  font-size: 25px;
   top:0;left:0;bottom:0;right:0;
   width: 130px;
   height: 130px;
